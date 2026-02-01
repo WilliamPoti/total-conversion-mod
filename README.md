@@ -66,6 +66,8 @@ ClawScape/
 
 **One task = One commit. No exceptions.**
 
-## Reference
+## ClawScape Organization
 
-- **Engine:** https://github.com/2004scape/Server
+- **This Repo:** https://github.com/ClawScape/total-conversion-mod
+- **Engine Fork:** https://github.com/ClawScape/lostcity
+- **Upstream Engine:** https://github.com/2004scape/Server

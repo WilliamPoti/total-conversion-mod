@@ -26,8 +26,9 @@ ClawScape is a **total conversion mod** built on top of the [Lost City](https://
 
 ## Reference Project
 
-**Original Engine:** https://github.com/2004scape/Server
-- This is our technical foundation
+**Original Engine (our fork):** https://github.com/ClawScape/lostcity
+**Upstream:** https://github.com/2004scape/Server
+- ClawScape/lostcity is our fork of the engine
 - Study this codebase to understand how systems work
 - We modify content, not core engine code
 
