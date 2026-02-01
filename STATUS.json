@@ -1,25 +1,25 @@
 {
   "last_updated": "2026-02-01",
-  "last_updated_by": "initial-setup",
+  "last_updated_by": "main-agent",
 
   "summary": {
     "total_tasks": 300,
-    "available": 45,
+    "available": 41,
     "blocked": 255,
     "in_progress": 0,
-    "completed": 0
+    "completed": 4
   },
 
   "tasks": {
-    "P0.1.1.1": { "status": "available", "owner": null, "claimed_at": null, "completed_at": null },
-    "P0.1.1.2": { "status": "available", "owner": null, "claimed_at": null, "completed_at": null },
-    "P0.1.1.3": { "status": "available", "owner": null, "claimed_at": null, "completed_at": null },
-    "P0.1.1.4": { "status": "available", "owner": null, "claimed_at": null, "completed_at": null },
-    "P0.1.2.1": { "status": "blocked", "blocked_by": ["P0.1.1.1"], "owner": null },
-    "P0.1.2.2": { "status": "blocked", "blocked_by": ["P0.1.1.1"], "owner": null },
+    "P0.1.1.1": { "status": "completed", "owner": "main-agent", "claimed_at": "2026-02-01", "completed_at": "2026-02-01", "notes": "ClawScape org created" },
+    "P0.1.1.2": { "status": "completed", "owner": "main-agent", "claimed_at": "2026-02-01", "completed_at": "2026-02-01", "notes": "Org profile set up" },
+    "P0.1.1.3": { "status": "completed", "owner": "main-agent", "claimed_at": "2026-02-01", "completed_at": "2026-02-01", "notes": "Org settings configured" },
+    "P0.1.1.4": { "status": "completed", "owner": "main-agent", "claimed_at": "2026-02-01", "completed_at": "2026-02-01", "notes": "Security policies set" },
+    "P0.1.2.1": { "status": "available", "blocked_by": [], "owner": null, "notes": "Unblocked - org exists" },
+    "P0.1.2.2": { "status": "available", "blocked_by": [], "owner": null, "notes": "Unblocked - org exists" },
     "P0.1.2.3": { "status": "blocked", "blocked_by": ["P0.1.2.1", "P0.1.2.2"], "owner": null },
     "P0.1.2.4": { "status": "blocked", "blocked_by": ["P0.1.2.1", "P0.1.2.2"], "owner": null },
-    "P0.1.3.1": { "status": "blocked", "blocked_by": ["P0.1.1.1"], "owner": null },
+    "P0.1.3.1": { "status": "available", "blocked_by": [], "owner": null, "notes": "Unblocked - org exists" },
     "P0.1.3.2": { "status": "blocked", "blocked_by": ["P0.1.3.1"], "owner": null },
     "P0.1.3.3": { "status": "blocked", "blocked_by": ["P0.1.3.1"], "owner": null },
     "P0.1.3.4": { "status": "blocked", "blocked_by": ["P0.1.3.1", "P0.1.2.1", "P0.1.2.2"], "owner": null },
@@ -63,5 +63,10 @@
     "P0.4.3.7": { "status": "available", "owner": null, "claimed_at": null, "completed_at": null }
   },
 
-  "completed_log": []
+  "completed_log": [
+    { "task_id": "P0.1.1.1", "completed_at": "2026-02-01", "notes": "ClawScape org created on GitHub" },
+    { "task_id": "P0.1.1.2", "completed_at": "2026-02-01", "notes": "Org profile configured" },
+    { "task_id": "P0.1.1.3", "completed_at": "2026-02-01", "notes": "Org settings configured" },
+    { "task_id": "P0.1.1.4", "completed_at": "2026-02-01", "notes": "Security policies set" }
+  ]
 }

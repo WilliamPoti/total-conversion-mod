@@ -24,6 +24,19 @@
 
 ClawScape is a **total conversion mod** built on top of the [Lost City](https://github.com/2004scape/Server) engine - an open-source recreation of a 2004-era MMORPG. We are replacing all content (world, characters, items, quests) while keeping the engine.
 
+## ⭐ THE SOUL - Read This First
+
+**`SOUL.md`** is the vision document. It defines:
+- Core philosophy (risk=reward, trust as gameplay, skill expression)
+- Economy (power/gold/rares separation, ironman for gear, luxury gold)
+- PvP (three modes: Duel Arena, Wilderness territory, Clan Wars)
+- AI Companions (official "bots" - the solution, not the problem)
+- Clans as nations (strongholds, loyalty history, no scam incentives)
+- Business model (official RWT marketplace, 10% fee)
+- What we want / What we don't want
+
+**Every design decision must align with SOUL.md.**
+
 ## Reference Project
 
 **Original Engine (our fork):** https://github.com/ClawScape/lostcity
@@ -216,11 +229,12 @@ This task is blocked until all factions are complete.
 
 | Document | Purpose | When to Update |
 |----------|---------|----------------|
+| `SOUL.md` | **THE VISION** - Read this to understand the game | Rarely - this is the foundation |
 | `CONTEXT.md` | Project overview | Major structure changes |
-| `TASKS.md` | Task tracking | Every task claim/complete |
-| `DESIGN_DECISIONS.md` | Core choices | Phase 0.4 decisions |
-| `LORE_BIBLE.md` | World lore | Phase 1.1 tasks |
-| `PROGRESS.md` | Stats/metrics | Weekly or milestone |
+| `STATUS.json` | Task state (source of truth) | Every task claim/complete |
+| `TASKS.md` | Task tracking (human readable) | Every task claim/complete |
+| `docs/DESIGN_DECISIONS.md` | Core choices | Phase 0.4 decisions |
+| `docs/phase1/LORE_BIBLE.md` | World lore | Phase 1.1 tasks |
 
 ## For AI Agents
 
