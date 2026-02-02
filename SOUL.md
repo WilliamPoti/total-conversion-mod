@@ -358,11 +358,15 @@
 - Burn for instant gold OR rent for ongoing income
 - Recall item anytime
 
-### Lending Raffle
-- All 15% fees pooled weekly
-- **10 winners, 10% each**
-- Fair distribution, community event
-- Turns a fee into excitement
+### Whip Tournaments (Funded by Burned Fees)
+- All 15% lending fees (and other burns) pool up
+- **FREE ENTRY** tournaments (no stake = not gambling)
+- RNG whip fights - classic coin-flip duels everyone loves
+- Bracket format competition
+- **Everyone wins something** - even first-round losers
+- Top placers win biggest shares
+- Community event funded by ecosystem fees
+- The thrill of RNG without personal risk
 
 ### Speech
 - X.com level freedom of speech
@@ -431,4 +435,4 @@
 
 ---
 
-*Last updated: 2026-02-01 5:40 PM EST*
+*Last updated: 2026-02-01 7:10 PM EST*
